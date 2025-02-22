@@ -1,0 +1,40 @@
+# 🌍 General App Configurations
+PORT=5000
+NODE_ENV=development
+
+# 🔐 JWT Authentication
+JWT_SECRET=your_super_secret_key
+JWT_EXPIRES_IN=30d
+
+# 📦 Database (MongoDB)
+MONGO_URI=mongodb+srv://your_username:your_password@cluster.mongodb.net/home-utility-db
+
+# 📩 Email & Notifications (Nodemailer / SMTP)
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=your_email@gmail.com
+SMTP_PASS=your_email_password
+
+# 📲 Firebase Cloud Messaging (Push Notifications)
+FIREBASE_PRIVATE_KEY="your_firebase_private_key"
+FIREBASE_PROJECT_ID=your_project_id
+FIREBASE_CLIENT_EMAIL=your_firebase_client_email
+
+# 🌎 Google Maps API (For Live Tracking & Nearby Services)
+GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+
+# 💳 Payment Gateway (Stripe / Razorpay)
+STRIPE_SECRET_KEY=your_stripe_secret_key
+RAZORPAY_KEY_ID=your_razorpay_key_id
+RAZORPAY_SECRET=your_razorpay_secret
+
+# 📞 Twilio (For OTP & SMS Notifications)
+TWILIO_ACCOUNT_SID=your_twilio_account_sid
+TWILIO_AUTH_TOKEN=your_twilio_auth_token
+TWILIO_PHONE_NUMBER=your_twilio_phone_number
+
+# 💬 OpenAI GPT API (For AI Chatbot)
+OPENAI_API_KEY=your_openai_api_key
+
+# 🛡️ AI-Based Fraud Detection (Google Vision API for OCR)
+GOOGLE_VISION_API_KEY=your_google_vision_api_key
